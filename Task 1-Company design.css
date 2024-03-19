@@ -1,0 +1,94 @@
+        body {
+            margin: 0;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: rgb(222, 247, 176);
+        }
+
+        .banner {
+            background-color: lime;
+            color: #fff;
+            padding: 80px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .about {
+            max-width: 200px;
+            text-align: center;
+            color: white;
+            background-color: lime;
+            padding: 5px;
+            margin-top: 10px;
+            border-radius: 10px;
+            margin: auto;
+        }
+
+        .subtitle {
+            width: 80%;
+            max-width: 400px;
+            text-align: center;
+            color: white;
+            background-color: lime;
+            padding: 10px;
+            border-radius: 10px;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        .border {
+            width: 80%;
+            padding: 15px;
+            border: none;
+            border-top: 5px dashed lime;
+            margin: auto;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px auto;
+            justify-content: space-around;
+        }
+
+        .profile {
+            padding: 20px;
+            width: 200px;
+            border: 5px solid lime ;
+            margin: 10px;
+        }
+
+        .contact {
+            padding: 20px;
+            background-color:lime;
+            color: white;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+
+        @media screen and (max-width: 768px) {
+
+            .about,
+            .subtitle,
+            .contact {
+                width: 90%;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+
+            .about,
+            .subtitle,
+            .contact {
+                width: 100%;
+                max-width: none;
+            }
+        }
